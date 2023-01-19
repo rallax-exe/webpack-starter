@@ -3,7 +3,7 @@ import { saludar } from './js/componentes.js';
 import './styles.css';
 
 
-const nombre = 'Raul';
+const nombre = 'Rallax.exe';
 
 
 saludar( nombre );

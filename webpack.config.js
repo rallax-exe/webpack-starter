@@ -73,4 +73,11 @@ module.exports = {
         }),
 
     ],
+
+    devServer: {
+        port: 8080,
+        liveReload: true,
+        hot:  false,
+        watchFiles: ['src/**/*.js', 'dist/**/*']
+    },
 }
